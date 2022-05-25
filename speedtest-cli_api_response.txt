@@ -1,0 +1,129 @@
+
+# speedtest-cli - Results
+
+{
+'download': 72272510.80842513, 
+'upload': 55457135.27370969, 
+'ping': 9.068, 
+'server':{
+	'url': 'http://roadrunner.cwt.btireland.net:8080/speedtest/upload.php', 
+    'lat': '53.3478',
+	'lon': '-6.2597',
+	'name': 'Dublin',
+	'country': 'Ireland',
+	'cc': 'IE',
+	'sponsor': 'BT Ireland',
+	'id': '38190',
+	'host': 'roadrunner.cwt.btireland.net:8080',
+	'd': 1.0682141740310092,
+	'latency': 9.068}, 
+'timestamp': '2021-08-24T12:58:07.591782Z', 
+'bytes_sent': 70475776, 
+'bytes_received': 92136848, 
+'share': None, 
+'client': {
+    'ip': '87.120.240.37', 
+	'lat': '53.3382', 
+	'lon': '-6.2591', 
+	'isp': 'Enet Telecommunications Networks Limited', 
+	'isprating': '3.7', 
+	'rating': '0', 
+	'ispdlavg': '0', 
+	'ispulavg': '0', 
+	'loggedin': '0', 
+	'country': 'IE'}
+}
+
+
+
+################################################################################
+
+Test results while connected to VPN from home - 2021-09-03
+
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS C:\dev\python\conn_speed> & C:/Users/ShayRyan/AppData/Local/pypoetry/Cache/virtualenvs/conn-speed-3HHfP4Jb-py3.9/Scripts/Activate.ps1
+(conn-speed-3HHfP4Jb-py3.9) PS C:\dev\python\conn_speed> & C:/Users/ShayRyan/AppData/Local/pypoetry/Cache/virtualenvs/conn-speed-3HHfP4Jb-py3.9/Scripts/python.exe c:/dev/python/conn_speed/conn_test_server.py
+speedtest version 2.1.3
+Server IDs: [35422, 38092, 38190, 4604, 42553, 6362]
+{'download': 44534322.73638113, 'upload': 12976119.149782812, 'ping': 28.4, 'server': {'url': 'http://lg-dub.fdcservers.net:8080/speedtest/upload.php', 'lat': '53.3478', 'lon': '-6.2597', 'name': 'Dublin', 'country': 'Ireland', 'cc': 'IE', 'sponsor': 'fdcservers.net', 'id': '35422', 'host': 'lg-dub.fdcservers.net:8080', 'd': 1.0682141740310092, 'latency': 28.4}, 'timestamp': '2021-09-03T07:29:26.619745Z', 'bytes_sent': 16875520, 'bytes_received': 57037576, 'share': None, 'client': {'ip': '87.120.240.37', 'lat': '53.3382', 'lon': '-6.2591', 'isp': 'Enet Telecommunications Networks Limited', 'isprating': '3.7', 'rating': '0', 'ispdlavg': '0', 'ispulavg': '0', 'loggedin': '0', 'country': 'IE'}}
+
+Timestamp     : 2021-09-03T07:29:26.619745Z
+Sponsor       : fdcservers.net
+Server        : http://lg-dub.fdcservers.net:8080/speedtest/upload.php
+My IP         : 87.120.240.37
+My ISP        : Enet Telecommunications Networks Limited
+Download Speed: 42.47 Mbps
+Upload Speed  : 12.37 Mbps
+Latency       : 28.40 ms
+***
+
+{'download': 104235330.74724136, 'upload': 22976689.70921475, 'ping': 11.948, 'server': {'url': 'http://speedtest.three.ie:8080/speedtest/upload.php', 'lat': '53.3478', 'lon': '-6.2597', 'name': 'Dublin', 'country': 'Ireland', 'cc': 'IE', 'sponsor': 'Three Ireland', 'id': '38092', 'host': 'speedtest.three.ie:8080', 'd': 1.0682141740310092, 'latency': 11.948}, 'timestamp': '2021-09-03T07:29:50.829358Z', 'bytes_sent': 29417472, 'bytes_received': 132373356, 'share': None, 'client': {'ip': '87.120.240.37', 'lat': '53.3382', 'lon': '-6.2591', 'isp': 'Enet Telecommunications Networks Limited', 'isprating': '3.7', 'rating': '0', 'ispdlavg': '0', 'ispulavg': '0', 'loggedin': '0', 'country': 'IE'}}
+
+Timestamp     : 2021-09-03T07:29:50.829358Z
+Sponsor       : Three Ireland
+Server        : http://speedtest.three.ie:8080/speedtest/upload.php
+My IP         : 87.120.240.37
+My ISP        : Enet Telecommunications Networks Limited
+Download Speed: 99.41 Mbps
+Upload Speed  : 21.91 Mbps
+Latency       : 11.95 ms
+***
+
+{'download': 110145283.1722697, 'upload': 22407769.63152867, 'ping': 14.022, 'server': {'url': 'http://roadrunner.cwt.btireland.net:8080/speedtest/upload.php', 'lat': '53.3478', 'lon': '-6.2597', 'name': 'Dublin', 'country': 'Ireland', 'cc': 'IE', 'sponsor': 'BT Ireland', 'id': '38190', 'host': 'roadrunner.cwt.btireland.net:8080', 'd': 1.0682141740310092, 'latency': 14.022}, 'timestamp': '2021-09-03T07:30:14.696173Z', 'bytes_sent': 28672000, 'bytes_received': 139725676, 'share': None, 'client': {'ip': '87.120.240.37', 'lat': '53.3382', 'lon': '-6.2591', 'isp': 'Enet Telecommunications Networks Limited', 'isprating': '3.7', 'rating': '0', 'ispdlavg': '0', 'ispulavg': '0', 'loggedin': '0', 'country': 'IE'}}
+
+Timestamp     : 2021-09-03T07:30:14.696173Z
+Sponsor       : BT Ireland
+Server        : http://roadrunner.cwt.btireland.net:8080/speedtest/upload.php
+My IP         : 87.120.240.37
+My ISP        : Enet Telecommunications Networks Limited
+Download Speed: 105.04 Mbps
+Upload Speed  : 21.37 Mbps
+Latency       : 14.02 ms
+***
+
+{'download': 100598432.10375355, 'upload': 22285851.61175053, 'ping': 17.317, 'server': {'url': 'http://speedtest1.blacknight.ie:8080/speedtest/upload.php', 'lat': '52.8306', 'lon': '-6.9317', 'name': 'Carlow', 'country': 'Ireland', 'cc': 'IE', 'sponsor': 'Blacknight', 'id': '4604', 'host': 'speedtest1.blacknight.ie:8080', 'd': 72.13603150847018, 'latency': 17.317}, 'timestamp': '2021-09-03T07:30:38.521505Z', 'bytes_sent': 28565504, 'bytes_received': 127735420, 'share': None, 'client': {'ip': '87.120.240.37', 'lat': '53.3382', 'lon': '-6.2591', 'isp': 'Enet Telecommunications Networks Limited', 'isprating': '3.7', 'rating': '0', 'ispdlavg': '0', 'ispulavg': '0', 'loggedin': '0', 'country': 'IE'}}
+
+Timestamp     : 2021-09-03T07:30:38.521505Z
+Sponsor       : Blacknight
+Server        : http://speedtest1.blacknight.ie:8080/speedtest/upload.php
+My IP         : 87.120.240.37
+My ISP        : Enet Telecommunications Networks Limited
+Download Speed: 95.94 Mbps
+Upload Speed  : 21.25 Mbps
+Latency       : 17.32 ms
+***
+
+{'download': 111284857.24611202, 'upload': 22410581.33687862, 'ping': 17.688, 'server': {'url': 'http://gonzales.bmt.btireland.net:8080/speedtest/upload.php', 'lat': '52.6638', 'lon': '-8.6267', 'name': 'Limerick', 'country': 'Ireland', 'cc': 'IE', 'sponsor': 'BTIRELAND', 'id': '42553', 'host': 'gonzales.bmt.btireland.net:8080', 'd': 175.2725515638763, 'latency': 17.688}, 'timestamp': '2021-09-03T07:31:02.446102Z', 'bytes_sent': 28696576, 'bytes_received': 141118316, 'share': None, 'client': {'ip': '87.120.240.37', 'lat': '53.3382', 'lon': '-6.2591', 'isp': 'Enet Telecommunications Networks Limited', 'isprating': '3.7', 'rating': '0', 'ispdlavg': '0', 'ispulavg': '0', 'loggedin': '0', 'country': 'IE'}}
+
+Timestamp     : 2021-09-03T07:31:02.446102Z
+Sponsor       : BTIRELAND
+Server        : http://gonzales.bmt.btireland.net:8080/speedtest/upload.php
+My IP         : 87.120.240.37
+My ISP        : Enet Telecommunications Networks Limited
+Download Speed: 106.13 Mbps
+Upload Speed  : 21.37 Mbps
+Latency       : 17.69 ms
+***
+
+{'download': 70415139.74576181, 'upload': 20269598.311569676, 'ping': 23.967, 'server': {'url': 'http://speedtest.kerrybroadband.net:8080/speedtest/upload.php', 'lat': '52.2675', 'lon': '-9.6962', 'name': 'Tralee', 'country': 'Ireland', 'cc': 'IE', 'sponsor': 'Kerry Broadband Ltd', 'id': '6362', 'host': 'speedtest.kerrybroadband.net:8080', 'd': 259.8869721043832, 'latency': 23.967}, 'timestamp': '2021-09-03T07:31:26.293443Z', 'bytes_sent': 25993216, 'bytes_received': 89781648, 'share': None, 'client': {'ip': '87.120.240.37', 'lat': '53.3382', 'lon': '-6.2591', 'isp': 'Enet Telecommunications Networks Limited', 'isprating': '3.7', 'rating': '0', 'ispdlavg': '0', 'ispulavg': '0', 'loggedin': '0', 'country': 'IE'}}
+
+Timestamp     : 2021-09-03T07:31:26.293443Z
+Sponsor       : Kerry Broadband Ltd
+Server        : http://speedtest.kerrybroadband.net:8080/speedtest/upload.php
+My IP         : 87.120.240.37
+My ISP        : Enet Telecommunications Networks Limited
+Download Speed: 67.15 Mbps
+Upload Speed  : 19.33 Mbps
+Latency       : 23.97 ms
+***
+
+(conn-speed-3HHfP4Jb-py3.9) PS C:\dev\python\conn_speed> 
+
+
+
+################################################################################
+

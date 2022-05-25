@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "conn_speed"
+version = "0.1.0"
+description = ""
+authors = ["Shay Ryan <shay.ryan@nbi.ie>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+speedtest-cli = "^2.1.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
